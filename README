@@ -1,7 +1,15 @@
 
+Pebble Watchface I put together.
+
+To Get Started:
+- Clone this repo.
+- Install Pebble SDK: https://developer.pebble.com/sdk/download/
+
 To Build:
 pebble build
 
-To deploy:
+To Deploy:
 pebble install --phone x.x.x.x
 
+Notes:
+- Weather hardcoded to pull from this URL (in src/pkjs/index.js): http://forecast.weather.gov/MapClick.php?lat=42.358429&lon=-71.059769&FcstType=json
