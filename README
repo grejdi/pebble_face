@@ -1,0 +1,7 @@
+
+To Build:
+pebble build
+
+To deploy:
+pebble install --phone x.x.x.x
+

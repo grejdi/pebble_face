@@ -1,0 +1,31 @@
+{
+  "name": "first-face",
+  "author": "g",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "first-face",
+    "uuid": "818a8bdb-a39a-45e8-bd38-49d79b991ce7",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "TEMPERATURE",
+      "CONDITIONS"
+    ],
+    "resources": {
+      "media": []
+    },
+    "capabilities": [ "health" ]
+  }
+}
