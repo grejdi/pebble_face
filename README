@@ -1,5 +1,13 @@
 
 Pebble Watchface I put together.
+- Vibrates when you connect/disconnect from Bluetooth.
+- Indicates when in 'Silent' mode.
+- Features:
+  - Step/Total Counts
+  - Date, Time
+  - Temperature, Weather Conditions
+  - Battery Level Percentage
+  - Connection State
 
 To Get Started:
 - Clone this repo.
